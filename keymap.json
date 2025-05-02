@@ -1,4 +1,3 @@
-// Zed keymap
 //
 // For information on binding keys, see the Zed
 // documentation: https://zed.dev/docs/key-bindings
@@ -24,17 +23,18 @@
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
-      "shift-h": "pane::ActivatePreviousItem",
-      "shift-l": "pane::ActivateNextItem",
-      "shift-j": "project_panel::ToggleFocus"
+      "shift-j": "pane::ActivatePreviousItem",
+      "shift-k": "pane::ActivateNextItem",
+      "ctrl-h": "project_panel::ToggleFocus"
     }
   },
   {
     "context": "Dock",
     "bindings": {
-      "shift-k": "project_panel::ToggleFocus",
+      "ctrl-l": "project_panel::ToggleFocus",
       "a": "project_panel::NewFile",
       "D": "project_panel::Delete"
     }
   }
 ]
+
