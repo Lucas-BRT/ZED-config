@@ -29,7 +29,7 @@
     }
   },
   {
-    "context": "Dock",
+    "context": "Dock && vim_mode == normal",
     "bindings": {
       "ctrl-l": "project_panel::ToggleFocus",
       "a": "project_panel::NewFile",
